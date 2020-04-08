@@ -1,0 +1,44 @@
+{
+  "@id": "urn:Advantech:UTX_3117:DeviceDetailedInformation:2",
+  "@type": "Interface",
+  "displayName": "Device Detailed Information",
+  "contents": [
+      {
+          "@type": "Property",
+          "displayName": "BIOS Version",
+          "name": "BiosVersion",
+          "schema": "string"
+      },
+      {
+          "@type": "Property",
+          "displayName": "EC Firmware",
+          "name": "ECFirmware",
+          "schema": "string"
+      },
+      {
+          "@type": "Property",
+          "displayName": "Driver Version",
+          "name": "DriverVersion",
+          "schema": "string"
+      },
+      {
+          "@type": "Property",
+          "displayName": "Library Version",
+          "name": "LibraryVersion",
+          "schema": "string"
+      },
+      {
+          "@type": "Property",
+          "displayName": "Firmware Version",
+          "name": "FirmwareVersion",
+          "schema": "string"
+      },
+      {
+          "@type": "Property",
+          "displayName": "Last Connected At",
+          "name": "LastConnectedAt",
+          "schema": "dateTime"
+      }
+  ],
+  "@context": "http://azureiot.com/v1/contexts/IoTModel.json"
+}
